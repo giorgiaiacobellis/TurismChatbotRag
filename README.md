@@ -26,7 +26,7 @@ Codici scraping:
 * `MediaWiki.ipynb`: file che naviga tutti i link che entrano nella pagina wikipedia del Piemonte e che recupera tutti i siti istituzionali dalla pagina dei comuni del piemonte
 
 
-Jsons:
+### Jsons:
 All'interno della cartella scraping_data ci sono tutti i file ottenuti dal processo di scraping:
 
 * tripadvisor_reviews.json : reviews di tripadvisor sul piemonte ottenute tramite API di apify.com 
