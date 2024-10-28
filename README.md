@@ -29,21 +29,21 @@ Codici scraping:
 ### Jsons:
 All'interno della cartella scraping_data ci sono tutti i file ottenuti dal processo di scraping:
 
-* tripadvisor_reviews.json : reviews di tripadvisor sul piemonte ottenute tramite API di apify.com 
+* `tripadvisor_reviews.json` : reviews di tripadvisor sul piemonte ottenute tramite API di apify.com 
 
-* wiki_documents.json: documenti recuperati dall’archivio dei musei e dal wikipedia dei musei
+* `wiki_documents.json`: documenti recuperati dall’archivio dei musei e dal wikipedia dei musei
 
-* dati_wiki_piemonte.json: raccolta di informazioni ottenute dallo scraping sulle pagine di wikipedia che linkano al Piemonte
+* `dati_wiki_piemonte.json`: raccolta di informazioni ottenute dallo scraping sulle pagine di wikipedia che linkano al Piemonte
 
-* turismotorino_data.json: contiene i dati del crawling di turismo torino, che però si possono fare meglio adesso e più velocemente
+* `turismotorino_data.json`: contiene i dati del crawling di turismo torino, che però si possono fare meglio adesso e più velocemente
 
-* dati_comuni_*.json: sono file che contengono il risultato dello scraping fatto sui comuni in maniera estesa, in particolare il final.json è quello con i dati più corposi
+* `dati_comuni_*.json`: sono file che contengono il risultato dello scraping fatto sui comuni in maniera estesa, in particolare il final.json è quello con i dati più corposi
 
-* comuni_data.json : dati dai siti istituzionali piemontesi usando il server
+* `comuni_data.json` : dati dai siti istituzionali piemontesi usando il server
 
-* cleaned_data.json: file contentente il merge dei dati raccolti con la pulizia completa
+* `cleaned_data.json`: file contentente il merge dei dati raccolti con la pulizia completa
 
-* merged.json: contiene tutti i dati sia di tripadivsor, che di wikidocuments
+* `merged.json`: contiene tutti i dati sia di tripadivsor, che di wikidocuments
 
 
 ## rag
@@ -57,3 +57,4 @@ Esempio di esecuzione:
 python3 runner.py nomefile
 ```
 
+Nel file `utils.py` ci sono tutte le funzioni fondamentali per la costruzione della pipeline. 
