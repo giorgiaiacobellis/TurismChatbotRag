@@ -1,5 +1,7 @@
 # TurismChatbotRag
 
+
+
 Questo studio si concentra sullo sviluppo e la valutazione di un chatbot implementato con il
 metodo di Retrieval Augmented Generation o RAG, e specificatamente progettato per la
 promozione turistica della regione Piemonte. Partendo da un dataset di informazioni
@@ -7,7 +9,8 @@ turistiche raccolte dal web, l’obiettivo è stato individuare una potenziale s
 per il chatbot che sia in grado di rispondere in maniera coerente e coinvolgere alle possibili
 richieste di un visitatore. 
 
-Nella repository si puù trovare una collezione di documenti, file e risultati della tesi. 
+ Con il seguente link è possibile accedere al file zip contenente il lavoro di tesi svolto: https://evilscript.eu/upload/files/PiemuntAI.zip 
+ 
 
 ## paper
 Collezione di  paper e documenti utilizzati per lo studio dello stato dell'arte. 
